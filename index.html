@@ -4,21 +4,15 @@
     <meta charset="utf-8">
     <title>BETA: Jumpstart</title>
     <link rel="icon" type="image/png" href="resources/favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Monoton|Open+Sans:400,600,700" rel="stylesheet">
     <!-- NOTE: stylesheets -->
     <link rel="stylesheet" type="text/css" href="resources/css/reset.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="resources/css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Monoton|Open+Sans:400,600,700" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- NOTE: javascript: Codecademy instructions say to list in head, not at the end as other inst say, so I'm leaving it here for now -->
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.js"
-      integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
-      crossorigin="anonymous">
-    </script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
-    <script type="text/javascript" src="resources/js/main.js"></script>
+    <!-- NOTE: javascript: Codecademy instructions say to list
+    in head, not at the end as other inst. say, but will move for now -->
   </head>
   <body>
 
@@ -37,11 +31,34 @@
     </header>
     <main>
       <!-- NOTE: Jumbotron -->
-      <div class="jumbotron-fluid jumbotron-bike">
-        <div class="container-fluid">
-          <h1>Get Going.</h1>
-          <p>Jumpstart your startup with some crowdsourced seed money, or support one of our 300,000,000+ creators and get rewards.</p>
-          <span class="btn btn-primary btn-lg">Jump in</span>
+      <div class="carousel">
+        <div class="jumbotron-fluid jumbotron-bike">
+          <div class="container-fluid">
+            <h1>GET GOING.</h1>
+            <p>Jumpstart your startup with some crowdsourced seed money, or support one of our 300,000,000+ creators and get rewards.</p>
+            <a href="#" class="btn btn-primary btn-lg">Jump in</a>
+          </div>
+        </div>
+        <div class="jumbotron-fluid jumbotron-beer">
+          <div class="container-fluid">
+            <h1>GET THINKING.</h1>
+            <p>Meet like-minded individuals who will help fuel your creative juices.</p>
+            <a href="#" class="btn btn-primary btn-lg">Jump in</a>
+          </div>
+        </div>
+        <div class="jumbotron-fluid jumbotron-flowers">
+          <div class="container-fluid">
+            <h1>GET CREATING.</h1>
+            <p>Stop overthinking projects and begin putting them out into the world.</p>
+            <a href="#" class="btn btn-primary btn-lg">Jump in</a>
+          </div>
+        </div>
+        <div class="jumbotron-fluid jumbotron-duffel">
+          <div class="container-fluid">
+            <h1>GET STARTED.</h1>
+            <p>What are you waiting for? Today's the day for your next big idea.</p>
+            <a href="#" class="btn btn-primary btn-lg">Jump in</a>
+          </div>
         </div>
       </div>
 
@@ -88,7 +105,7 @@
       <div id="projects" class="container">
         <h2>Projects</h2>
         <div class="row">
-          <div class="col-lg-4 col-xs-12">
+          <div class="col-lg-4 col-xs-12 project">
             <div class="image-container">
               <img src="resources/images/project1.png" alt="Woman wearing a Hendrix T-shirt and tights">
             </div>
@@ -96,7 +113,7 @@
             <p>by Riley Mae</p>
             <p>These tights are 50 denier, beautifully constructed, hand-dyed, and guaranteed to last (no more ladders!). Made with high quality, completely toxic-free materials. Custom colors available to all backers.</p>
           </div>
-          <div class="col-lg-4 col-xs-12">
+          <div class="col-lg-4 col-xs-12 project">
             <div class="image-container">
               <img src="resources/images/project2.png" alt="Room with stylish furnishings">
             </div>
@@ -104,7 +121,7 @@
             <p>by Brian McDonald</p>
             <p>Instantly upgrade your home with technology that keeps your family and home safe. We've made Peppermint easy to use. Just talk to your phone and Peppermint will help you every step of the way.</p>
           </div>
-          <div class="col-lg-4 col-xs-12">
+          <div class="col-lg-4 col-xs-12 project">
             <div class="image-container">
               <img src="resources/images/project3.png" alt="Neon Sign in Window">
             </div>
@@ -121,7 +138,13 @@
         <p>Inventor's block strikes at the worst time. But that's all changed with the Jumpstart's Good Idea Generator Lite (GIGLi).</p>
         <a href="#" class="btn btn-primary btn-lg">Learn more</a>
       </div>
-
+      <script
+        src="https://code.jquery.com/jquery-3.2.1.js"
+        integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+        crossorigin="anonymous">
+      </script>
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
+      <script type="text/javascript" src="resources/js/main.js"></script>
     </main>
   </body>
 </html>
